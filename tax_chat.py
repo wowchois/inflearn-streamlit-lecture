@@ -5,7 +5,7 @@ from langchain_ollama.embeddings import OllamaEmbeddings
 from langchain_chroma import Chroma
 from langchain_ollama import ChatOllama
 
-from llm import get_ai_response
+from tax_llm import get_ai_response
 
 # streamlit 은 새로고침 할 때 마다 전체 코드를 다시 실행함. 
 # 따라서 대화 내용을 유지하기 위해 session_state를 사용하여 대화 내용을 저장해야 함.
